@@ -129,8 +129,40 @@ img {
  ************************************************/
 
 
- @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     .container{
         max-width: 100%;
     }
- }
+}
+
+@media screen and (max-width: 480px){
+    
+
+    .row{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .lessons{
+        padding-bottom: 3em;
+        background-color: #232946;
+    }
+    .lessons .col{
+        width: 100%;
+    }
+    .steps{
+        margin: 0;
+    }
+    .steps .col{
+        width: 100%;
+
+    }
+    .why-us{
+        margin-bottom: 0;
+        padding-block: 3em;
+        background-color: #222222;
+    }
+    .why-us .col{
+        width: 100%;
+    }
+}
